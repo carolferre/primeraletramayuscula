@@ -1,0 +1,10 @@
+lista=["hola","mundo","qué","tal"]
+lista2=[]
+
+def ponerMayuscula(lista):
+    for i in range(len(lista)):
+        resultado=lista[i].capitalize()
+        lista2.append(resultado)
+    print(lista2)
+
+ponerMayuscula(lista)
